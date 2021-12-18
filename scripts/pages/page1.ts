@@ -15,6 +15,10 @@ export default class Page1 extends Page1Design {
             this.router.push('/pages/page2', { message: 'Hello World!' });
         };
     }
+
+    initComponent(){
+        this.flProfile.labelText='SmartFace && ID3'
+    }
 }
 
 /**
@@ -22,6 +26,7 @@ export default class Page1 extends Page1Design {
  * This event is called when a page appears on the screen (everytime).
  */
 function onShow(this: Page1, superOnShow: () => void) {
+    this.initComponent();
     superOnShow();
     this.headerBar.titleLayout.applyLayout();
 }
@@ -31,6 +36,7 @@ function onShow(this: Page1, superOnShow: () => void) {
  * This event is called once when page is created.
  */
 function onLoad(this: Page1, superOnLoad: () => void) {
+  
     superOnLoad();
     console.info('Onload page1');
     this.headerBar.leftItemEnabled = false;

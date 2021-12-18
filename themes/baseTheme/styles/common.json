@@ -1,1 +1,10 @@
-{}
+{
+	".lblProfile": {
+		"height": 65,
+		"flexProps": {
+			"flexDirection": "ROW"
+		},
+		"paddingLeft": 10,
+		"paddingRight": 10
+	}
+}

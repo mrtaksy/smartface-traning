@@ -1,0 +1,18 @@
+{
+	".flProfile": {
+		"&-imgIcon": {
+			"height": null,
+			"width": 60,
+			"image": "placeholder_profile.png",
+			"imageFillType": "ASPECTFIT"
+		},
+		"&-lblProfile": {
+			"width": null,
+			"height": null,
+			"flexProps": {
+				"flexGrow": 1
+			},
+			"marginLeft": 15
+		}
+	}
+}
